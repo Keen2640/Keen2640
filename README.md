@@ -1,58 +1,43 @@
-<p align="center">
-  <picture>
+<picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-    <img alt="Aniketh Sriramoju, software engineer working on Edge AI and embedded systems" src="assets/header-light.svg" width="100%">
+    <img alt="Aniketh Sriramoju. Edge AI and embedded systems. Looking for software engineering internships." src="assets/header-light.svg" width="100%">
   </picture>
-</p>
 
-<p align="center">
-  <a href="https://github.com/Keen2640?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Keen2640-181717?style=flat-square&logo=github&logoColor=white"/></a>
-  <a href="mailto:anikethsriramoju@gmail.com"><img src="https://img.shields.io/badge/Email-anikethsriramoju%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
-  <!-- Add these when ready:
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
-  <a href="YOUR-RESUME-LINK"><img src="https://img.shields.io/badge/Resume-PDF-2ea44f?style=flat-square"/></a>
-  -->
-</p>
+[Email](mailto:anikethsriramoju@gmail.com) &nbsp;/&nbsp; [GitHub](https://github.com/Keen2640?tab=repositories) <!-- &nbsp;/&nbsp; [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN) &nbsp;/&nbsp; [Resume](YOUR-RESUME-LINK) -->
 
 ## About
 
-I build software that runs close to the hardware: capturing a signal, processing it, and running a model on a small device. I work on teams with **Dallas Formula Racing** and **FTC Robotics**, and I keep my fundamentals sharp in [algorithm-lab](https://github.com/Keen2640/algorithm-lab).
+I like the part of software where code meets a physical signal: capturing it, cleaning it up, and getting a model to make a decision on a chip with almost no power or memory. My main project does exactly that for sound.
 
-I'm looking for a software engineering internship where I can ship real code on a team.
+I'm part of **Dallas Formula Racing**, **Nebula Labs**, and **AIS**. <!-- Add one line on what you do in each, for example: "On DFR I work on ..." -->
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg">
-    <img alt="Skills: languages, edge and embedded, tools" src="assets/skills-light.svg" width="100%">
-  </picture>
-</p>
+## Featured project
 
-## Featured project: Low-Power Edge AI Acoustic Classifier
+### [Low-Power Edge AI Acoustic Classifier](https://github.com/Keen2640/Low-Power-Edge-AI-Acoustic-Classifier)
 
-A real-time sound classifier that runs entirely on-device. A custom analog front-end captures audio, an FFT pipeline turns it into spectrograms, and a TinyML model classifies it without a network connection.
+A sound classifier that runs entirely on the device, with no network connection. I built the analog front-end that captures audio, the FFT pipeline that turns it into spectrograms, and the TinyML model that classifies them.
 
-<p align="center">
-  <a href="https://github.com/Keen2640/Low-Power-Edge-AI-Acoustic-Classifier">
-    <picture>
+<picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/pipeline-dark.svg">
-    <img alt="Signal flow from microphone through analog front-end, ADC, FFT, TinyML model to prediction" src="assets/pipeline-light.svg" width="100%">
+    <img alt="Signal chain: microphone, analog front-end, ADC, FFT and DSP, TinyML model, prediction" src="assets/pipeline-light.svg" width="100%">
   </picture>
-  </a>
-</p>
 
-- Hardware to model: analog capture, DSP, and inference in one system
-- Built with Python, Jupyter, TinyML and embedded tooling
-<!-- Add real numbers here if you have them, for example accuracy, model size, latency, power draw -->
+<!-- Add 2 or 3 real numbers here, for example: accuracy on N classes, model size in KB, inference time in ms, power draw. Specifics are what make this credible. -->
 
-[View the repository](https://github.com/Keen2640/Low-Power-Edge-AI-Acoustic-Classifier)
+**Stack:** Python, Jupyter, TinyML, DSP, embedded hardware
 
-## Other projects
+## Other work
 
-| Project | What it is | Stack |
-| --- | --- | --- |
-| [AIOS](https://github.com/Keen2640/AIOS) | <!-- one sentence --> | Python |
-| [jobfit](https://github.com/Keen2640/jobfit) | <!-- one sentence --> | Python |
-| [algorithm-lab](https://github.com/Keen2640/algorithm-lab) | Algorithm experiments and implementations | JavaScript |
-| [Dallas Formula Racing: Onboarding](https://github.com/DallasFormulaRacing/Onboarding) | Software onboarding project for the race team | Python |
-| [FTC Robot Code](https://github.com/Keen2640/FTC-Robot-Code) | Robot control code for FIRST Tech Challenge | Java |
-| [Fall 2025 Game Jam](https://github.com/Keen2640/fall-2025-game-jam-upload) | Game jam entry | Game jam |
+| | |
+| --- | --- |
+| [AIOS](https://github.com/Keen2640/AIOS) | <!-- one sentence on what it does --> |
+| [jobfit](https://github.com/Keen2640/jobfit) | <!-- one sentence on what it does --> |
+| [algorithm-lab](https://github.com/Keen2640/algorithm-lab) | Algorithm implementations and experiments in JavaScript |
+| [Dallas Formula Racing: Onboarding](https://github.com/DallasFormulaRacing/Onboarding) | Software onboarding project for the race team, in Python |
+| [Fall 2025 Game Jam](https://github.com/Keen2640/fall-2025-game-jam-upload) | Game jam entry |
+
+## Skills
+
+**Languages:** Python, Java, JavaScript  
+**Focus:** TinyML, DSP, embedded systems, edge AI  
+**Tools:** Git, GitHub Actions, Jupyter
