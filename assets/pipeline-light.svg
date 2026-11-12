@@ -3,20 +3,20 @@
 <line x1="70.0" y1="60" x2="930.0" y2="60" stroke="#d3d9e3" stroke-width="2"/>
 <circle cx="70.0" cy="60" r="7" fill="none" stroke="#2c3fa8" stroke-width="2"/>
 <text x="70.0" y="96" font-size="14" font-weight="600" text-anchor="middle" fill="#141b2d">Microphone</text>
-<text x="70.0" y="116" font-size="12" text-anchor="middle" fill="#5a6679">audio in</text>
+<text x="70.0" y="116" font-size="12" text-anchor="middle" fill="#586378">audio in</text>
 <circle cx="242.0" cy="60" r="7" fill="none" stroke="#2c3fa8" stroke-width="2"/>
 <text x="242.0" y="96" font-size="14" font-weight="600" text-anchor="middle" fill="#141b2d">Analog front-end</text>
-<text x="242.0" y="116" font-size="12" text-anchor="middle" fill="#5a6679">custom circuit</text>
+<text x="242.0" y="116" font-size="12" text-anchor="middle" fill="#586378">custom circuit</text>
 <circle cx="414.0" cy="60" r="7" fill="none" stroke="#2c3fa8" stroke-width="2"/>
 <text x="414.0" y="96" font-size="14" font-weight="600" text-anchor="middle" fill="#141b2d">ADC</text>
-<text x="414.0" y="116" font-size="12" text-anchor="middle" fill="#5a6679">digitize</text>
+<text x="414.0" y="116" font-size="12" text-anchor="middle" fill="#586378">digitize</text>
 <circle cx="586.0" cy="60" r="7" fill="none" stroke="#2c3fa8" stroke-width="2"/>
 <text x="586.0" y="96" font-size="14" font-weight="600" text-anchor="middle" fill="#141b2d">FFT / DSP</text>
-<text x="586.0" y="116" font-size="12" text-anchor="middle" fill="#5a6679">spectrogram</text>
+<text x="586.0" y="116" font-size="12" text-anchor="middle" fill="#586378">spectrogram</text>
 <circle cx="758.0" cy="60" r="7" fill="none" stroke="#2c3fa8" stroke-width="2"/>
 <text x="758.0" y="96" font-size="14" font-weight="600" text-anchor="middle" fill="#141b2d">TinyML model</text>
-<text x="758.0" y="116" font-size="12" text-anchor="middle" fill="#5a6679">on-device</text>
+<text x="758.0" y="116" font-size="12" text-anchor="middle" fill="#586378">on-device</text>
 <circle cx="930.0" cy="60" r="7" fill="#2c3fa8" stroke="#2c3fa8" stroke-width="2"/>
 <text x="930.0" y="96" font-size="14" font-weight="600" text-anchor="middle" fill="#141b2d">Prediction</text>
-<text x="930.0" y="116" font-size="12" text-anchor="middle" fill="#5a6679">sound class</text>
+<text x="930.0" y="116" font-size="12" text-anchor="middle" fill="#586378">sound class</text>
 </svg>

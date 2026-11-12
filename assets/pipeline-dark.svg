@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 150" width="100%" role="img">
 <style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}.serif{font-family:Georgia,'Times New Roman',serif}</style>
 <line x1="70.0" y1="60" x2="930.0" y2="60" stroke="#2b3445" stroke-width="2"/>
-<circle cx="70.0" cy="60" r="7" fill="none" stroke="#9db0ff" stroke-width="2"/>
-<text x="70.0" y="96" font-size="14" font-weight="600" text-anchor="middle" fill="#e6eaf2">Microphone</text>
-<text x="70.0" y="116" font-size="12" text-anchor="middle" fill="#8d99ad">audio in</text>
-<circle cx="242.0" cy="60" r="7" fill="none" stroke="#9db0ff" stroke-width="2"/>
-<text x="242.0" y="96" font-size="14" font-weight="600" text-anchor="middle" fill="#e6eaf2">Analog front-end</text>
-<text x="242.0" y="116" font-size="12" text-anchor="middle" fill="#8d99ad">custom circuit</text>
-<circle cx="414.0" cy="60" r="7" fill="none" stroke="#9db0ff" stroke-width="2"/>
-<text x="414.0" y="96" font-size="14" font-weight="600" text-anchor="middle" fill="#e6eaf2">ADC</text>
-<text x="414.0" y="116" font-size="12" text-anchor="middle" fill="#8d99ad">digitize</text>
-<circle cx="586.0" cy="60" r="7" fill="none" stroke="#9db0ff" stroke-width="2"/>
-<text x="586.0" y="96" font-size="14" font-weight="600" text-anchor="middle" fill="#e6eaf2">FFT / DSP</text>
-<text x="586.0" y="116" font-size="12" text-anchor="middle" fill="#8d99ad">spectrogram</text>
-<circle cx="758.0" cy="60" r="7" fill="none" stroke="#9db0ff" stroke-width="2"/>
-<text x="758.0" y="96" font-size="14" font-weight="600" text-anchor="middle" fill="#e6eaf2">TinyML model</text>
-<text x="758.0" y="116" font-size="12" text-anchor="middle" fill="#8d99ad">on-device</text>
-<circle cx="930.0" cy="60" r="7" fill="#9db0ff" stroke="#9db0ff" stroke-width="2"/>
-<text x="930.0" y="96" font-size="14" font-weight="600" text-anchor="middle" fill="#e6eaf2">Prediction</text>
-<text x="930.0" y="116" font-size="12" text-anchor="middle" fill="#8d99ad">sound class</text>
+<circle cx="70.0" cy="60" r="7" fill="none" stroke="#a5b6ff" stroke-width="2"/>
+<text x="70.0" y="96" font-size="14" font-weight="600" text-anchor="middle" fill="#e8ecf5">Microphone</text>
+<text x="70.0" y="116" font-size="12" text-anchor="middle" fill="#94a0b8">audio in</text>
+<circle cx="242.0" cy="60" r="7" fill="none" stroke="#a5b6ff" stroke-width="2"/>
+<text x="242.0" y="96" font-size="14" font-weight="600" text-anchor="middle" fill="#e8ecf5">Analog front-end</text>
+<text x="242.0" y="116" font-size="12" text-anchor="middle" fill="#94a0b8">custom circuit</text>
+<circle cx="414.0" cy="60" r="7" fill="none" stroke="#a5b6ff" stroke-width="2"/>
+<text x="414.0" y="96" font-size="14" font-weight="600" text-anchor="middle" fill="#e8ecf5">ADC</text>
+<text x="414.0" y="116" font-size="12" text-anchor="middle" fill="#94a0b8">digitize</text>
+<circle cx="586.0" cy="60" r="7" fill="none" stroke="#a5b6ff" stroke-width="2"/>
+<text x="586.0" y="96" font-size="14" font-weight="600" text-anchor="middle" fill="#e8ecf5">FFT / DSP</text>
+<text x="586.0" y="116" font-size="12" text-anchor="middle" fill="#94a0b8">spectrogram</text>
+<circle cx="758.0" cy="60" r="7" fill="none" stroke="#a5b6ff" stroke-width="2"/>
+<text x="758.0" y="96" font-size="14" font-weight="600" text-anchor="middle" fill="#e8ecf5">TinyML model</text>
+<text x="758.0" y="116" font-size="12" text-anchor="middle" fill="#94a0b8">on-device</text>
+<circle cx="930.0" cy="60" r="7" fill="#a5b6ff" stroke="#a5b6ff" stroke-width="2"/>
+<text x="930.0" y="96" font-size="14" font-weight="600" text-anchor="middle" fill="#e8ecf5">Prediction</text>
+<text x="930.0" y="116" font-size="12" text-anchor="middle" fill="#94a0b8">sound class</text>
 </svg>
