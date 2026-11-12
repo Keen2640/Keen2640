@@ -1,104 +1,58 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Aniketh Sriramoju" width="100%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+    <img alt="Aniketh Sriramoju, software engineer working on Edge AI and embedded systems" src="assets/header-light.svg" width="100%">
+  </picture>
 </p>
 
 <p align="center">
-  <img src="assets/skills.svg" alt="Skills" width="100%"/>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Keen2640?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Keen2640-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="mailto:anikethsriramoju@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <!-- Add your LinkedIn and resume links here:
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="YOUR-RESUME-LINK"><img src="https://img.shields.io/badge/Resume-PDF-2ea44f?style=for-the-badge"/></a>
+  <a href="https://github.com/Keen2640?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Keen2640-181717?style=flat-square&logo=github&logoColor=white"/></a>
+  <a href="mailto:anikethsriramoju@gmail.com"><img src="https://img.shields.io/badge/Email-anikethsriramoju%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
+  <!-- Add these when ready:
+  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
+  <a href="YOUR-RESUME-LINK"><img src="https://img.shields.io/badge/Resume-PDF-2ea44f?style=flat-square"/></a>
   -->
-</p>
-
----
-
-<p align="center">
-  <img src="assets/terminal.svg" alt="whoami" width="100%"/>
 </p>
 
 ## About
 
-Software engineer focused on **Edge AI and embedded systems**. I build systems end to end: signal capture, DSP, and an ML model that runs on-device. I also contribute to team codebases with **Dallas Formula Racing** and **FTC Robotics**, and practice core algorithms in [algorithm-lab](https://github.com/Keen2640/algorithm-lab).
+I build software that runs close to the hardware: capturing a signal, processing it, and running a model on a small device. I work on teams with **Dallas Formula Racing** and **FTC Robotics**, and I keep my fundamentals sharp in [algorithm-lab](https://github.com/Keen2640/algorithm-lab).
 
-**Currently:** building low-power ML that runs on tiny hardware.
-**Looking for:** Software Engineering internships.
+I'm looking for a software engineering internship where I can ship real code on a team.
 
-## Featured project
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg">
+    <img alt="Skills: languages, edge and embedded, tools" src="assets/skills-light.svg" width="100%">
+  </picture>
+</p>
 
-### Low-Power Edge AI Acoustic Classifier
+## Featured project: Low-Power Edge AI Acoustic Classifier
 
-Real-time acoustic classifier built with TinyML, DSP and embedded systems. A custom analog front-end captures environmental audio, an FFT-based pipeline generates spectrograms, and the model runs on-device.
+A real-time sound classifier that runs entirely on-device. A custom analog front-end captures audio, an FFT pipeline turns it into spectrograms, and a TinyML model classifies it without a network connection.
 
 <p align="center">
   <a href="https://github.com/Keen2640/Low-Power-Edge-AI-Acoustic-Classifier">
-    <img src="assets/pipeline.svg" alt="Signal flow: mic, analog front-end, ADC, FFT, TinyML, class" width="100%"/>
+    <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/pipeline-dark.svg">
+    <img alt="Signal flow from microphone through analog front-end, ADC, FFT, TinyML model to prediction" src="assets/pipeline-light.svg" width="100%">
+  </picture>
   </a>
 </p>
 
-<p align="center">
-  <img src="assets/code.svg" alt="Python spectrogram code and output" width="100%"/>
-</p>
+- Hardware to model: analog capture, DSP, and inference in one system
+- Built with Python, Jupyter, TinyML and embedded tooling
+<!-- Add real numbers here if you have them, for example accuracy, model size, latency, power draw -->
 
-<p align="center"><a href="https://github.com/Keen2640/Low-Power-Edge-AI-Acoustic-Classifier"><b>View the repository →</b></a></p>
+[View the repository](https://github.com/Keen2640/Low-Power-Edge-AI-Acoustic-Classifier)
 
-## More projects
+## Other projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Keen2640/AIOS">AIOS</a></h4>
-      <!-- TODO: one sentence on what AIOS does -->
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Keen2640/jobfit">jobfit</a></h4>
-      <!-- TODO: one sentence on what jobfit does -->
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Keen2640/algorithm-lab">algorithm-lab</a></h4>
-      Algorithm experiments and implementations.<br/><br/>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/DallasFormulaRacing/Onboarding">Dallas Formula Racing: Onboarding</a></h4>
-      Software onboarding project for the Dallas Formula Racing team.<br/><br/>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Keen2640/FTC-Robot-Code">FTC Robot Code</a></h4>
-      Robot control code for FIRST Tech Challenge.<br/><br/>
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Keen2640/fall-2025-game-jam-upload">Fall 2025 Game Jam</a></h4>
-      Game jam entry.<br/><br/>
-      <img src="https://img.shields.io/badge/Game%20Jam-8A2BE2?style=flat-square"/>
-    </td>
-  </tr>
-</table>
-
-## Algorithms
-
-<p align="center">
-  <a href="https://github.com/Keen2640/algorithm-lab">
-    <img src="assets/sorting.svg" alt="Animated quicksort" width="100%"/>
-  </a>
-</p>
-
-## Languages
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Keen2640&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
-</p>
-
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18&height=100&section=footer"/></p>
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [AIOS](https://github.com/Keen2640/AIOS) | <!-- one sentence --> | Python |
+| [jobfit](https://github.com/Keen2640/jobfit) | <!-- one sentence --> | Python |
+| [algorithm-lab](https://github.com/Keen2640/algorithm-lab) | Algorithm experiments and implementations | JavaScript |
+| [Dallas Formula Racing: Onboarding](https://github.com/DallasFormulaRacing/Onboarding) | Software onboarding project for the race team | Python |
+| [FTC Robot Code](https://github.com/Keen2640/FTC-Robot-Code) | Robot control code for FIRST Tech Challenge | Java |
+| [Fall 2025 Game Jam](https://github.com/Keen2640/fall-2025-game-jam-upload) | Game jam entry | Game jam |
