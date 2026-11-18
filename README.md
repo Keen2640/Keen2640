@@ -30,13 +30,13 @@ A sound classifier that runs entirely on the device, with no network connection.
 
 ## Other work
 
-| | |
+| Project | What it is |
 | --- | --- |
-| [AIOS](https://github.com/Keen2640/AIOS) | <!-- one sentence on what it does --> |
-| [jobfit](https://github.com/Keen2640/jobfit) | <!-- one sentence on what it does --> |
-| [algorithm-lab](https://github.com/Keen2640/algorithm-lab) | Algorithm implementations and experiments in JavaScript |
-| [Fall 2025 Game Jam](https://github.com/Keen2640/fall-2025-game-jam-upload) | Game jam entry |
-| [Dallas Formula Racing: Onboarding](https://github.com/DallasFormulaRacing/Onboarding) | Software onboarding project for the race team, in Python |
+| [AIOS](https://github.com/Keen2640/AIOS) | Agent runtime that turns plain-English requests into validated, executable actions on a local machine (Python, Gemini) |
+| [jobfit](https://github.com/Keen2640/jobfit) | Job-posting classifier and resume ranker: 87% accuracy on 41K postings, served from a Dockerized FastAPI API (Python, PostgreSQL, XGBoost) |
+| [algorithm-lab](https://github.com/Keen2640/algorithm-lab) | Algorithm implementations and experiments (JavaScript) |
+| [Fall 2025 Game Jam](https://github.com/Keen2640/fall-2025-game-jam-upload) | Game built for the Fall 2025 game jam |
+| [Dallas Formula Racing: Onboarding](https://github.com/DallasFormulaRacing/Onboarding) | Software onboarding project for the university race team (Python) |
 
 ## Skills
 
