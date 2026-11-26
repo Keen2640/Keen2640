@@ -3,17 +3,30 @@
     <img alt="Aniketh Sriramoju. Edge AI and embedded systems. Animated 3D spectrogram." src="assets/header-light.svg" width="100%">
   </picture>
 
-[Email](mailto:anikethsriramoju@gmail.com) &nbsp;/&nbsp; [GitHub](https://github.com/Keen2640?tab=repositories) <!-- &nbsp;/&nbsp; [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN) &nbsp;/&nbsp; [Resume](YOUR-RESUME-LINK) -->
+[Email](mailto:anikethsriramoju@gmail.com) &nbsp;/&nbsp; [LinkedIn](https://www.linkedin.com/in/aniketh-sriramoju-75b46528b) &nbsp;/&nbsp; [GitHub](https://github.com/Keen2640?tab=repositories)
 
 <sub>The banner above is a spectrogram (sound over time and frequency) drawn as a 3D terrain. It is the kind of signal my classifier works on.</sub>
 
 ## About
 
-I like the part of software where code meets a physical signal: capturing it, cleaning it up, and getting a model to make a decision on a chip with almost no power or memory. My main project does exactly that for sound.
+I like software that has to be right about something real: a physical signal that has to be classified on a chip with almost no power or memory, or a risk number that has to hold up when interest rates move. I'm a Computer Science student at UT Dallas (graduating May 2028).
 
-I'm part of **Nebula Labs**, **AIS**, and **Dallas Formula Racing**. <!-- Add one line on what you do in each. -->
+I'm part of **Nebula Labs**, **AIS**, and **Dallas Formula Racing**.
 
-## Featured project
+## Featured projects
+
+### [Surplus: Pension LDI & Funded-Status Risk Engine](https://github.com/Keen2640/surplus)
+
+A liability-driven investing engine for a corporate pension plan, built on real data (the U.S. Treasury yield curve and SSA mortality tables). It values the plan's liabilities, measures their interest-rate risk, builds a hedge out of Treasury bonds and swaps, and stress-tests investment strategies across 10,000 simulated interest-rate paths.
+
+- Values a 20,000-participant plan ($1.79B) with a Nelson-Siegel-Svensson curve fit to within 1.5bp of observed Treasury yields
+- Optimizes a STRIPS, bond and swap hedge to a 90% hedge ratio within 3.4% key-rate mismatch
+- Hull-White simulation, sampled exactly and checked against the curve: the 90% hedge cuts rate-driven surplus VaR by 93% vs. a traditional 60/40 portfolio
+- A Claude tool-calling analyst whose every number is audited against engine output, a FastAPI dashboard, and 20 tests against closed-form results
+
+<a href="https://github.com/Keen2640/surplus"><img alt="Surplus dashboard: Treasury curve, benefit cash flows, key-rate hedge, funded-ratio projection" src="https://raw.githubusercontent.com/Keen2640/surplus/main/docs/dashboard.png" width="100%"></a>
+
+**Stack:** Python, NumPy, SciPy, FastAPI, Claude API, Chart.js
 
 ### [Low-Power Edge AI Acoustic Classifier](https://github.com/Keen2640/Low-Power-Edge-AI-Acoustic-Classifier)
 
@@ -24,9 +37,10 @@ A sound classifier that runs entirely on the device, with no network connection.
     <img alt="Signal chain: microphone, analog front-end, ADC, FFT and DSP, TinyML model, prediction" src="assets/pipeline-light.svg" width="100%">
   </picture>
 
-<!-- Add 2 or 3 real numbers here: accuracy, model size in KB, inference time in ms, power draw. -->
+- 79.4% test accuracy from a 15.15 KB CNN that fits an ESP32's 32 KB flash and 16 KB RAM budget
+- INT8 quantization cut model size 4x, and the input was shrunk 75% (64x64 to 32x32) before export as a C header
 
-**Stack:** Python, Jupyter, TinyML, DSP, embedded hardware
+**Stack:** Python, TensorFlow Lite, C, ESP32, DSP
 
 ## Other work
 
@@ -40,6 +54,6 @@ A sound classifier that runs entirely on the device, with no network connection.
 
 ## Skills
 
-**Languages:** Python, Java, JavaScript  
-**Focus:** TinyML, DSP, embedded systems, edge AI  
-**Tools:** Git, GitHub Actions, Jupyter
+**Languages:** Python, SQL, C/C++, Java, JavaScript/TypeScript  
+**Focus:** edge AI and TinyML, DSP, quantitative risk modeling, ML serving, LLM agents  
+**Tools:** NumPy, SciPy, PyTorch, scikit-learn, XGBoost, FastAPI, Docker, PostgreSQL, Git, GitHub Actions
